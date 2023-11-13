@@ -20,6 +20,7 @@ import DevBot from "@/bots/DevBot";
 import GradioAppBot from "@/bots/huggingface/GradioAppBot";
 import HuggingChatBot from "@/bots/huggingface/HuggingChatBot";
 import QianWenBot from "./QianWenBot";
+import DouBaoBot from "./DouBaoBot";
 import ChatGPT35PoeBot from "./poe/ChatGPT35PoeBot";
 import ChatGPT4PoeBot from "./poe/ChatGPT4PoeBot";
 import ClaudeInstantPoeBot from "./poe/ClaudeInstantPoeBot";
@@ -98,6 +99,7 @@ const all = [
   PhindBot.getInstance(),
   PiBot.getInstance(),
   QianWenBot.getInstance(),
+  DouBaoBot.getInstance(),
   SkyWorkBot.getInstance(),
   SparkBot.getInstance(),
   Vicuna7bBot.getInstance(),
